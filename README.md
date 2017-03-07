@@ -48,8 +48,8 @@ Using Java: https://docs.oracle.com/javase/tutorial/deployment/jar/build.html
     * `cat poker-hands.txt | java -jar poker-1.0-jar-with-dependencies.jar` for Linux
     * `type poker-hands.txt | java -jar poker-1.0-jar-with-dependencies.jar` for Windows
  4. Expected output:
- `
+ ```
     --------------- RESULT ------------------
-    Player 1: 263
-    Player 2: 237
-`
+        Player 1: 263
+        Player 2: 237
+```
