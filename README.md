@@ -13,7 +13,7 @@ A poker hand consists of a combination of five playing cards, ranked in the foll
 | 8    | Four of a kind  | Four cards of the same value                                  |
 | 9    | Straight flush  | All five cards in consecutive value order, with the same suit |
 | 10   | Royal Flush     |  Ten, Jack, Queen, King and Ace in the same suit              |
-|:-----|----------------:|:-------------------------------------------------------------:|
+
 The cards are valued in the order:
 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King, Ace*
 
@@ -32,7 +32,9 @@ next highest cards are compared, and so on.
 Note - suits are not taken into account to break a tie for this exercise - only the value of the card determines a winner.
 
 ## Build
+
 Using Maven:
+
 1. Go to `poker` directory
 2. Run command `mvn package`
 
@@ -46,6 +48,8 @@ Using Java: https://docs.oracle.com/javase/tutorial/deployment/jar/build.html
     * `cat poker-hands.txt | java -jar poker-1.0-jar-with-dependencies.jar` for Linux
     * `type poker-hands.txt | java -jar poker-1.0-jar-with-dependencies.jar` for Windows
  4. Expected output:
+ `
     --------------- RESULT ------------------
     Player 1: 263
     Player 2: 237
+`
